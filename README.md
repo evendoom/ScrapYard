@@ -9,3 +9,4 @@ CSS Color palette: https://palettes.shecodes.io/palettes/1079
 
 | Type | What | Status |
 | :--: | :--: | :----: |
+| CSS | Find a logo | Not Done |

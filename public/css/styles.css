@@ -33,6 +33,31 @@ body, h1, p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #00040e;
-    border-bottom: solid 1px #658525;
+    background-color: rgba(0, 4, 14, 0.6);
+    border-bottom: 1px solid #658525;
+}
+
+.logo {
+    margin-left: 1.5%;
+}
+
+.nav-links-container {
+    margin-right: 1.5%;
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-link:link, .nav-link:visited {
+    color: #FEFFF1;
+}
+
+.nav-link:hover {
+    color: #658525;
+    transition: color 0.2s linear;
 }
