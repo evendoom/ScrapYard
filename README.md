@@ -10,7 +10,8 @@ CSS Color palette: https://palettes.shecodes.io/palettes/1079
 | Type | What | Status |
 | :--: | :--: | :----: |
 | CSS | Find a logo | Not Done |
-| CSS | Change font | Not Done |
+| CSS | Change font | Done |
 | CSS | Change link color for active page | Not Done, will most likely need JS for this | 
 | CSS | Improve sign in form, i.e. Alter pseudo classes on inputs and buttons | Not Done |
+| CSS | Change placeholder colors | Not Done |
 | Refactor | Create color variables for CSS code | Not Done |

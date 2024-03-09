@@ -9,8 +9,7 @@ body {
     justify-content: space-between;
     align-items: center;
     font-family: 'Kanit', sans-serif;
-    font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
 }
 
 body::after {
@@ -31,6 +30,10 @@ body::after {
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
+}
+
+h1, h2, h3, p {
+    font-weight: 300; 
 }
 
 /* NAVBAR */
@@ -97,6 +100,17 @@ footer {
     height: 100%;
 }
 
+.slogan h1 {
+    font-weight: 500;
+    font-size: 5rem;
+}
+
+.slogan h2 {
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+
 /* SIGN IN */
 .signin-container {
     height: 100%;
@@ -126,6 +140,9 @@ footer {
 
 .signin-username label, .signin-password label {
     text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-bottom: 1%;
 }
 
 .signin-username input, .signin-password input {
@@ -133,21 +150,27 @@ footer {
     background-color: transparent;
     border-radius: 80px;
     width: 60%;
-    height: 35%;
+    height: 30%;
     color: #FEFFF1;
-    padding: 1% 2%;
+    padding: 1% 4%;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 3px;
 }
 
 .signin-container button {
     background-color: #658525;
     border: none;
     color: #FEFFF1;
-    width: 14%;
+    width: 16%;
     height: 12%;
     cursor: pointer;
     text-transform: uppercase;
     padding: 1%, 2%;
     border-radius: 80px;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 2px;
 }
 
 .signin-container button:hover {
