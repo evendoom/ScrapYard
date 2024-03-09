@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/signin', (req, res) => {
-    res.render('signin')
+    res.render('user/signin')
 })
 
 // App listening

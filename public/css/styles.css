@@ -25,7 +25,7 @@ body::after {
     z-index: -1;
 }
 
-body, h1, p {
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
@@ -76,4 +76,78 @@ footer {
     align-items: center;
     background-color: rgba(0, 4, 14, 0.6);
     border-top: 1px solid #658525;
+}
+
+/* BODY */
+.container {
+    height: 80%;
+    width: 100vw;
+
+}
+
+/* HOMEPAGE */
+.slogan-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* SIGN IN */
+.signin-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-container form {
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signin-username, .signin-password {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+}
+
+.signin-username label, .signin-password label {
+    text-transform: uppercase;
+}
+
+.signin-username input, .signin-password input {
+    border: 2px solid #658525;
+    background-color: transparent;
+    border-radius: 80px;
+    width: 60%;
+    height: 35%;
+    color: #FEFFF1;
+    padding: 1% 2%;
+}
+
+.signin-container button {
+    background-color: #658525;
+    border: none;
+    color: #FEFFF1;
+    width: 14%;
+    height: 12%;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 1%, 2%;
+    border-radius: 80px;
+}
+
+.signin-container button:hover {
+    background-color: #7faa28;
+    transition: background-color 0.5s ease;
 }
